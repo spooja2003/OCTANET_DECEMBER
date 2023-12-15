@@ -1,0 +1,67 @@
+body {
+    margin: 10;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1603001464057-8cc206124c72?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JlYXRpdml0eXx8fHx8fDE3MDIxNDQyOTk&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source');
+}
+
+section {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+}
+
+header .nav a {
+    color: rgb(39, 38, 38);
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 8px 15px;
+    /* Add padding for better aesthetics */
+    border-radius: 5px;
+    background-color: rgb(253, 150, 248);
+}
+
+.nav b {
+    margin-right: 15px;
+}
+
+
+.content .h1 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.moreinfo {
+    word-spacing: 10px;
+    background-color: rgb(208, 243, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.moreinfo a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    margin: 0 10px;
+}
